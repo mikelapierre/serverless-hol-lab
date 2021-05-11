@@ -15,11 +15,11 @@
    az ad signed-in-user show --query objectId -o tsv
    ```
 
-   ![At the cloud shell prompt, the az ad signed-in-user show command is entered and highlighted.](media/azure-cli-az-ad-signed-in-user-show.png "Azure CLI")
+   ![At the cloud shell prompt, the az ad signed-in-user show command is entered and highlighted.](https://github.com/microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/media/azure-cli-az-ad-signed-in-user-show.png)
 
 4. Execute the command and copy the output value.
 
-   ![In the cloud shell, the output from the az ad signed-in-user show command is highlighted.](media/azure-cli-az-ad-signed-in-user-show-output.png "Azure CLI")
+   ![In the cloud shell, the output from the az ad signed-in-user show command is highlighted.](https://github.com/microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/media/azure-cli-az-ad-signed-in-user-show-output.png)
 
 5. Now, on the custom deployment screen in the Azure portal, enter the following:
 
@@ -29,7 +29,7 @@
    - **Vm Username**: Accept the default value, **demouser**.
    - **Vm Password**: Accept the default value, **Password.1!!**.
 
-   ![The Custom deployment blade is displayed, and the information above is entered on the Custom deployment blade.](media/azure-custom-deployment.png "Custom deployment blade")
+   ![The Custom deployment blade is displayed, and the information above is entered on the Custom deployment blade.](https://github.com/microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/media/azure-custom-deployment.png)
 
 6. Select **Review + create** to review the custom deployment.
 
@@ -39,7 +39,7 @@
 
    > **Note**: The deployment of the custom ARM template should finish in about 5 minutes.
 
-   ![On the Review + create blade for the custom deployment, the Validation passed message is highlighted, and the Create button is highlighted.](media/azure-custom-deployment-review-create.png "Review + create custom deployment")
+   ![On the Review + create blade for the custom deployment, the Validation passed message is highlighted, and the Create button is highlighted.](https://github.com/microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/media/azure-custom-deployment-review-create.png)
 
 8. You can monitor the deployment's progress on the **Deployment** blade that opens when you start the ARM template deployment.
 
