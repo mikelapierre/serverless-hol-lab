@@ -7,7 +7,7 @@
 
 2. On the custom deployment screen, the first parameter you need to populate is the `ObjectId` associated with the account you used to log into the Azure portal. To retrieve this, select the **Cloud Shell** icon on the Azure portal toolbar to open an Azure command line interface (CLI) terminal window at the bottom of your open browser window.
 
-   ![The Cloud Shell icon is highlighted on the Azure portal toolbar.](media/azure-toolbar-cloud-shell.png "Azure toolbar")
+   ![The Cloud Shell icon is highlighted on the Azure portal toolbar.](https://github.com/microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/media/azure-toolbar-cloud-shell.png)
 
 3. In the PowerShell terminal window that opens in the Azure portal, enter the following command at the prompt:
 
